@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Tap-React/static/css/main.7f4acaba.css",
-    "main.js": "/Tap-React/static/js/main.fa4eda8e.js",
+    "main.js": "/Tap-React/static/js/main.d765fcd6.js",
     "static/js/453.6d54a900.chunk.js": "/Tap-React/static/js/453.6d54a900.chunk.js",
     "index.html": "/Tap-React/index.html",
     "main.7f4acaba.css.map": "/Tap-React/static/css/main.7f4acaba.css.map",
-    "main.fa4eda8e.js.map": "/Tap-React/static/js/main.fa4eda8e.js.map",
+    "main.d765fcd6.js.map": "/Tap-React/static/js/main.d765fcd6.js.map",
     "453.6d54a900.chunk.js.map": "/Tap-React/static/js/453.6d54a900.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f4acaba.css",
-    "static/js/main.fa4eda8e.js"
+    "static/js/main.d765fcd6.js"
   ]
 }
