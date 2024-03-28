@@ -1,0 +1,10 @@
+.errorLoadingMsg {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  color: var(--body-text);
+  border: 2px solid;
+  color: #d8000c;
+  background-color: #ffc7c7;
+  margin-bottom: 100px;
+}

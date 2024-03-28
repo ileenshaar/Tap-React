@@ -1,0 +1,26 @@
+.welcomeContainer {
+  position: relative;
+  height: 140px;
+  background-color: var(--bg-default);
+}
+
+.welcomeContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  line-height: 20px;
+  top: 50%;
+}
+
+@media (max-width: 700px) {
+  .welcomeContent {
+    padding: 15px 30px 0px;
+    justify-content: flex-start;
+  }
+
+  .welcomeContainer {
+    height: 70px;
+    padding-bottom: 8vw;
+  }
+}

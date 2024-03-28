@@ -1,0 +1,35 @@
+.welcomeSection {
+  max-width: 60%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.welcomeText,
+.welcomeHeading {
+  margin: 0;
+  padding: 0;
+}
+
+.welcomeText {
+  color: var(--brand-secondary);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.welcomeHeading {
+  color: var(--body-text);
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+@media (max-width: 700px) {
+  .welcomeSection {
+    max-width: 100%;
+  }
+  .welcomeHeading {
+    line-height: 4vw;
+    text-wrap: wrap;
+    font-size: 0.9rem;
+  }
+}

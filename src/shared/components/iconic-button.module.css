@@ -1,0 +1,33 @@
+.headerButton {
+  color: var(--body-text);
+  background-color: var(--bg_default);
+  border-radius: 5px;
+  border: 1px solid var(--lines-color);
+  padding: 5px 10px;
+  font-size: 0.9rem;
+}
+
+button ion-icon {
+  vertical-align: middle;
+  margin: 0 5px 0 0px;
+}
+
+ion-icon[name="sunny-outline"] {
+  color: yellow;
+}
+
+@media (max-width: 700px) {
+  .headerButton {
+    margin: 0;
+    padding: 4px 8px 5px 10px;
+  }
+
+  .headerButton ion-icon {
+    margin-left: 3px;
+    padding: 0;
+  }
+
+  span {
+    display: none;
+  }
+}

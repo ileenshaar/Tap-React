@@ -1,0 +1,31 @@
+.greenTriangle {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  height: 50%;
+  background: var(--brand-secondary);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+}
+
+.blueTriangle {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(
+    to right,
+    var(--brand-primary),
+    var(--brand-secondary)
+  );
+  clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+}
+
+@media (max-width: 700px) {
+  .blueTriangle {
+    height: 35%;
+  }
+
+  .greenTriangle {
+    height: 35%;
+  }
+}

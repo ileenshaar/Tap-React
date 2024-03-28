@@ -1,0 +1,7 @@
+.loadingIndicator {
+  text-align: center;
+  color: var(--body-text);
+  font-size: 2.5rem;
+  padding: 40px;
+  margin: 20px;
+}
